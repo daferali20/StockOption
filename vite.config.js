@@ -3,9 +3,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // 🟡 هذا السطر مهم لحل مشكلة المسارات
+  base: './',
   build: {
     outDir: 'dist',
   },
 });
-
